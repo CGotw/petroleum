@@ -55,18 +55,18 @@ CREATE TABLE `station_table` (
 ```SQL
 CREATE TABLE `well_table` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
-  `oil _well` varchar(256) NOT NULL,
+  `oil_well` varchar(256) NOT NULL,
   `date` date NOT NULL,
   `oil_pressure` double DEFAULT NULL,
-  `casing _pressure` double DEFAULT NULL,
-  `gauge _pressure` double DEFAULT NULL,
+  `casing_pressure` double DEFAULT NULL,
+  `gauge_pressure` double DEFAULT NULL,
   `back_pressure` double DEFAULT NULL,
   `wellhead _temperature` double DEFAULT NULL,
   `daily_liquid_production` double DEFAULT NULL,
-  `Daily_carbon_dioxide_production` double DEFAULT NULL,
+  `daily_carbon_dioxide_production` double DEFAULT NULL,
   `voltage` double DEFAULT NULL,
   `current` double DEFAULT NULL,
-  `upward _curren` double DEFAULT NULL,
+  `upward_curren` double DEFAULT NULL,
   `descending_current` double DEFAULT NULL,
   `power_consumption` double DEFAULT NULL,
   `output_liquid_concentration` double DEFAULT NULL,
@@ -80,9 +80,9 @@ CREATE TABLE `well_table` (
   `daily_oil_production` double DEFAULT NULL,
   `daily_water_production` double DEFAULT NULL,
   `daily_gas` double DEFAULT NULL,
-  `gas-oil_ratio` double DEFAULT NULL,
+  `gas_oil_ratio` double DEFAULT NULL,
   `containing_water` double DEFAULT NULL,
-  `Water_content_added` double DEFAULT NULL,
+  `water_content_added` double DEFAULT NULL,
   `pump_depth` double DEFAULT NULL,
   `balance_degree` double DEFAULT NULL,
   `pump_efficiency` double DEFAULT NULL,
@@ -90,3 +90,8 @@ CREATE TABLE `well_table` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1
 ```
+
+现河采油厂
+王岗采油管理区
+通10注采站
+YJ4431
